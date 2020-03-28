@@ -1,0 +1,54 @@
+spring:
+  datasource:
+    druid:
+      #url: jdbc:oracle:thin:@//10.3.81.137:1521/orclpdbdev
+      url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC
+      username: root
+      #publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJ7XjibyMpWuvCJHT7roL9fzcowJzP4Pa6N6Ff03NWNsit+jO11zx+srz+Jek8N71h2oM7hYnOOPtPv6RP33usECAwEAAQ==
+      password: 82878871
+      ##加密需配置publicKey、spring.datasource.druid.filter.config、spring.datasource.druid.connection-properties
+      ##connection-properties: config.decrypt=true;config.decrypt.key=${publicKey}
+      #可根据url自动识别#
+      driver-class-name: com.mysql.cj.jdbc.Driver ##com.mysql.jdbc.Driver #oracle.jdbc.driver.OracleDriver
+      #过滤器stat监控统计，log4j日志，wall防sql注入#
+      filters: stat,slf4j,wall
+      #初始化时建立物理连接的个数#
+      initial-size: 1
+      #最小连接池数量#
+      min-idle: 1
+      #最大连接池数量#
+      max-active: 20
+      #获取连接时最大等待时间，毫秒#
+      max-wait: 60000
+      #Destroy线程会检测连接的间隔时间#
+      time-between-eviction-runs-millis: 60000
+      #Destory线程中如果检测到当前连接的最后活跃时间和当前时间的差值大于，minEvictableIdleTimeMillis，则关闭当前连接。
+      min-evictable-idle-time-millis: 300000
+      # 配置一个连接在池中最大生存的时间，单位是毫秒
+      max-evictable-idle-time-millis: 900000
+      #申请连接时，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效，不影响性能#
+      test-while-idle: true
+      #申请连接时执行validationQuery检测连接是否有效，降低性能。#
+      test-on-borrow: false
+      #归还连接时执行validationQuery检测连接是否有效，降低性能#
+      test-on-return: false
+      #检测连接是否有效的查询sql，如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。
+      validation-query: select 1 from dual
+      #是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。
+      #在mysql5.5以下的版本中没有PSCache功能，建议关闭掉。5.5及以上版本有PSCache，建议开启。
+      pool-prepared-statements: true
+      #当大于0时， poolPreparedStatements自动触发修改为true。
+      #在Druid中，不会存在Oracle下PSCache占用内存过多的问题，可以配置大一些，比如说100
+      max-open-prepared-statements: 20
+      #如果有initialSize数量较多时，打开会加快应用启动时间
+      async-init: true
+      filter:
+        log4j:
+          statement-close-after-log-enabled:
+        stat:
+          enabled: true
+          log-slow-sql: true
+          slow-sql-millis: 5000
+          merge-sql: true
+        #config:
+         # enabled: true

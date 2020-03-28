@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.BeanWrapperImpl</OriginalElement>
+  <nodes>
+    <node x="110.31944444444449" y="158.0">org.springframework.beans.TypeConverterSupport</node>
+    <node x="0.0" y="79.0">org.springframework.beans.PropertyEditorRegistrySupport</node>
+    <node x="121.31944444444449" y="316.0">org.springframework.beans.AbstractNestablePropertyAccessor</node>
+    <node x="238.0" y="79.0">org.springframework.beans.TypeConverter</node>
+    <node x="145.31944444444449" y="237.0">org.springframework.beans.AbstractPropertyAccessor</node>
+    <node x="236.3402777777778" y="0.0">org.springframework.beans.PropertyEditorRegistry</node>
+    <node x="432.5902777777777" y="237.0">org.springframework.beans.BeanWrapper</node>
+    <node x="328.5902777777777" y="158.0">org.springframework.beans.ConfigurablePropertyAccessor</node>
+    <node x="289.22916666666663" y="395.0">org.springframework.beans.BeanWrapperImpl</node>
+    <node x="380.0" y="79.0">org.springframework.beans.PropertyAccessor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.beans.BeanWrapperImpl" target="org.springframework.beans.AbstractNestablePropertyAccessor">
+      <point x="-33.5" y="-14.5" />
+      <point x="322.72916666666663" y="370.0" />
+      <point x="239.31944444444449" y="370.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.TypeConverterSupport" target="org.springframework.beans.TypeConverter">
+      <point x="41.0" y="-14.5" />
+      <point x="233.31944444444449" y="133.0" />
+      <point x="268.5" y="133.0" />
+      <point x="-30.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.BeanWrapper" target="org.springframework.beans.ConfigurablePropertyAccessor">
+      <point x="5.6843418860808015E-14" y="-14.5" />
+      <point x="53.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.TypeConverterSupport" target="org.springframework.beans.PropertyEditorRegistrySupport">
+      <point x="-41.0" y="-14.5" />
+      <point x="151.31944444444449" y="133.0" />
+      <point x="109.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.ConfigurablePropertyAccessor" target="org.springframework.beans.TypeConverter">
+      <point x="-70.66666666666663" y="-14.5" />
+      <point x="363.9236111111111" y="133.0" />
+      <point x="329.5" y="133.0" />
+      <point x="30.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.AbstractNestablePropertyAccessor" target="org.springframework.beans.AbstractPropertyAccessor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.BeanWrapperImpl" target="org.springframework.beans.BeanWrapper">
+      <point x="33.5" y="-14.5" />
+      <point x="389.72916666666663" y="370.0" />
+      <point x="487.5902777777777" y="370.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.AbstractPropertyAccessor" target="org.springframework.beans.ConfigurablePropertyAccessor">
+      <point x="47.0" y="-14.5" />
+      <point x="286.31944444444446" y="212.0" />
+      <point x="381.5902777777777" y="212.0" />
+      <point x="-53.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.ConfigurablePropertyAccessor" target="org.springframework.beans.PropertyEditorRegistry">
+      <point x="70.66666666666674" y="-14.5" />
+      <point x="505.25694444444446" y="133.0" />
+      <point x="530.5" y="133.0" />
+      <point x="530.5" y="54.0" />
+      <point x="368.3402777777778" y="54.0" />
+      <point x="44.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.AbstractPropertyAccessor" target="org.springframework.beans.TypeConverterSupport">
+      <point x="-47.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.ConfigurablePropertyAccessor" target="org.springframework.beans.PropertyAccessor">
+      <point x="5.6843418860808015E-14" y="-14.5" />
+      <point x="434.5902777777778" y="133.0" />
+      <point x="450.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.PropertyEditorRegistrySupport" target="org.springframework.beans.PropertyEditorRegistry">
+      <point x="0.0" y="-14.5" />
+      <point x="109.0" y="54.0" />
+      <point x="280.3402777777778" y="54.0" />
+      <point x="-44.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="394.5" y="473.5" />
+  <SelectedNodes>
+    <node>org.springframework.beans.PropertyEditorRegistrySupport</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

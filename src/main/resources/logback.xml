@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <contextName>SpringBoot-logBack-demo</contextName>
+    <!-- 文件输出格式   %contextName -->
+    <property name="PATTERN" value="%highlight([%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS}[%t %c %L] : %msg%n)" />
+    <!-- 控制台 -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>${PATTERN}</pattern>
+            <outputPatternAsHeader>true</outputPatternAsHeader><!--是否在日志开始先输出pattern内容，默认false-->
+        </encoder>
+    </appender>
+    <!--每天产生一个日志文件,每月产生一个文件夹-->
+    <appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./log/logFile.log</file><!--可省略，区分存档日志和当前激活的日志-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>./log/%d{yyyy-MM,aux}/logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- keep 180 days' worth of history capped at 10GB total size -->
+            <maxHistory>180</maxHistory>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${PATTERN}</pattern>
+        </encoder>
+    </appender>
+    <!--每天产生一个html文件,每月产生一个文件夹-->
+    <appender name="rollingHtml" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./log/logFile.html</file><!--可省略，区分存档日志和当前激活的日志-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>./log/%d{yyyy-MM,aux}/logFile.%d{yyyy-MM-dd}.html</fileNamePattern>
+            <!-- keep 180 days' worth of history capped at 10GB total size -->
+            <maxHistory>180</maxHistory>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.html.HTMLLayout">
+                <pattern>%level%d%thread%logger%msg</pattern>
+            </layout>
+        </encoder>
+    </appender>
+
+    <!--具体个性化某个Controller或者某个包下使用指定级别的日志输出-->
+<!--    <logger name="com.black.example.*" level="INFO"/>
+    <logger name="org.springframework.web" level="DEBUG"/>-->
+    <!--测试环境-->
+    <springProfile name="test">
+        <root level="INFO">
+            <appender-ref ref="console"/>
+        </root>
+    </springProfile>
+    <!--开发环境-->
+    <springProfile name="dev">
+        <root level="INFO">
+            <appender-ref ref="rollingHtml"/>
+            <appender-ref ref="rollingFile"/>
+            <appender-ref ref="console"/>
+        </root>
+    </springProfile>
+
+    <!--生产环境-->
+    <springProfile name="pro">
+        <root level="INFO">
+        </root>
+    </springProfile>
+</configuration>

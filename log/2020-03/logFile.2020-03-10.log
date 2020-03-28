@@ -1,0 +1,756 @@
+[34m[INFO ] 2020-03-10 00:14:03.428[main com.froggengo.springlearn.SpringLearnMain 50] : Starting SpringLearnMain on mh-fly with PID 6808 (F:\dev\SpringLearn\target\classes started by mh in F:\dev\SpringLearn)
+[0;39m[34m[INFO ] 2020-03-10 00:14:03.478[main com.froggengo.springlearn.SpringLearnMain 684] : The following profiles are active: dev
+[0;39m[34m[INFO ] 2020-03-10 00:14:03.660[main org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 590] : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@299321e2: startup date [Tue Mar 10 00:14:03 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 09:08:08.106[main com.froggengo.springlearn.SpringLearnMain 50] : Starting SpringLearnMain on mh-fly with PID 9828 (F:\dev\SpringLearn\target\classes started by mh in F:\dev\SpringLearn)
+[0;39m[34m[INFO ] 2020-03-10 09:08:08.110[main com.froggengo.springlearn.SpringLearnMain 684] : The following profiles are active: dev
+[0;39m[34m[INFO ] 2020-03-10 09:08:08.235[main org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 590] : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@180da663: startup date [Tue Mar 10 09:08:08 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 09:11:35.729[main com.froggengo.springlearn.SpringLearnMain 50] : Starting SpringLearnMain on mh-fly with PID 7780 (F:\dev\SpringLearn\target\classes started by mh in F:\dev\SpringLearn)
+[0;39m[34m[INFO ] 2020-03-10 09:11:35.736[main com.froggengo.springlearn.SpringLearnMain 684] : The following profiles are active: dev
+[0;39m[34m[INFO ] 2020-03-10 09:11:35.862[main org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 590] : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c35172e: startup date [Tue Mar 10 09:11:35 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 09:11:38.465[main org.springframework.data.repository.config.RepositoryConfigurationDelegate 172] : Multiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.584[main com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor 50] : Post-processing PropertySource instances
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.727[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.729[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.730[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.731[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.732[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.733[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.733[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.733[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.734[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.852[main com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter 31] : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[0;39m[34m[INFO ] 2020-03-10 09:11:39.980[main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326] : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2af3f8f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m[34m[INFO ] 2020-03-10 09:11:41.699[main org.springframework.boot.web.embedded.tomcat.TomcatWebServer 91] : Tomcat initialized with port(s): 8080 (http)
+[0;39m[34m[INFO ] 2020-03-10 09:11:41.763[main org.apache.coyote.http11.Http11NioProtocol 180] : Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m[34m[INFO ] 2020-03-10 09:11:41.811[main org.apache.catalina.core.StandardService 180] : Starting service [Tomcat]
+[0;39m[34m[INFO ] 2020-03-10 09:11:41.812[main org.apache.catalina.core.StandardEngine 180] : Starting Servlet Engine: Apache Tomcat/8.5.34
+[0;39m[34m[INFO ] 2020-03-10 09:11:41.828[localhost-startStop-1 org.apache.catalina.core.AprLifecycleListener 180] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app1\mh\product\11.2.0\dbhome_1\bin;d:\app\mh\product\11.2.0\dbhome_2\bin;d:\app\mh\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Java\jdk1.8.0_45\jre\bin;%CATALINA_HOME%\bin;D:\apache-maven-3.5.3\bin;D:\TortoiseSVN\bin;D:\TortoiseSVN12\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Anaconda3;E:\Anaconda3\Scripts;C:\Windows\System32;F:\软件安装\Git\cmd;F:\application\;C:\Program Files\Pandoc\;C:\cmder;D:\app1\redis;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\IntelliJ IDEA 2019.1.3\bin;;C:\Program Files\Bandizip\;D:\PyCharm 2019.2\bin;;F:\application\node_global;F:\软件安装\Microsoft VS Code\bin;.]
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.112[localhost-startStop-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 180] : Initializing Spring embedded WebApplicationContext
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.113[localhost-startStop-1 org.springframework.web.context.ContextLoader 285] : Root WebApplicationContext: initialization completed in 6251 ms
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.438[localhost-startStop-1 org.springframework.boot.web.servlet.ServletRegistrationBean 187] : Servlet dispatcherServlet mapped to [/]
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.468[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'characterEncodingFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.470[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.471[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.472[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'requestContextFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.679[main com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver 31] : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.682[main com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector 30] : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[0;39m[34m[INFO ] 2020-03-10 09:11:42.953[main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56] : Init DruidDataSource
+[0;39m[34m[INFO ] 2020-03-10 09:11:43.694[main com.alibaba.druid.pool.DruidDataSource 1003] : {dataSource-1} inited
+[0;39m[34m[INFO ] 2020-03-10 09:11:45.803[main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 373] : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[0;39m[1;31m[ERROR] 2020-03-10 09:11:46.018[Druid-ConnectionPool-Create-1157484092 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[34m[INFO ] 2020-03-10 09:11:46.600[main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 588] : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c35172e: startup date [Tue Mar 10 09:11:35 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 09:11:46.760[main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 549] : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.froggengo.springlearn.project.domain.User> com.froggengo.springlearn.project.controller.UserController.userList()
+[0;39m[34m[INFO ] 2020-03-10 09:11:46.766[main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 549] : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[0;39m[34m[INFO ] 2020-03-10 09:11:46.768[main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 549] : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[0;39m[34m[INFO ] 2020-03-10 09:11:46.811[main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 373] : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[0;39m[34m[INFO ] 2020-03-10 09:11:46.816[main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 373] : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[0;39m[31m[WARN ] 2020-03-10 09:11:46.927[main org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 104] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[0;39m[1;31m[ERROR] 2020-03-10 09:11:48.021[Druid-ConnectionPool-Create-1157484092 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[34m[INFO ] 2020-03-10 09:11:48.023[Druid-ConnectionPool-Create-1157484092 com.alibaba.druid.pool.DruidAbstractDataSource 1743] : {dataSource-1} failContinuous is true
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.294[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 433] : Registering beans for JMX exposure on startup
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.296[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 895] : Bean with name 'statFilter' has been autodetected for JMX exposure
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.298[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 895] : Bean with name 'dataSource' has been autodetected for JMX exposure
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.308[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 668] : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.310[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 668] : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.343[main org.apache.coyote.http11.Http11NioProtocol 180] : Starting ProtocolHandler ["http-nio-8080"]
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.365[main org.apache.tomcat.util.net.NioSelectorPool 180] : Using a shared selector for servlet write/read
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.463[main org.springframework.boot.web.embedded.tomcat.TomcatWebServer 206] : Tomcat started on port(s): 8080 (http) with context path ''
+[0;39m[34m[INFO ] 2020-03-10 09:11:48.476[main com.froggengo.springlearn.SpringLearnMain 59] : Started SpringLearnMain in 43.772 seconds (JVM running for 47.062)
+[0;39m[1;31m[ERROR] 2020-03-10 09:11:50.524[Druid-ConnectionPool-Create-1157484092 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[34m[INFO ] 2020-03-10 09:11:52.921[Thread-30 org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 993] : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c35172e: startup date [Tue Mar 10 09:11:35 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 09:11:52.925[Thread-30 org.springframework.jmx.export.annotation.AnnotationMBeanExporter 451] : Unregistering JMX-exposed beans on shutdown
+[0;39m[34m[INFO ] 2020-03-10 09:11:52.926[Thread-30 org.springframework.jmx.export.annotation.AnnotationMBeanExporter 185] : Unregistering JMX-exposed beans
+[0;39m[34m[INFO ] 2020-03-10 09:11:52.995[Thread-30 com.alibaba.druid.pool.DruidDataSource 1948] : {dataSource-1} closing ...
+[0;39m[34m[INFO ] 2020-03-10 09:11:52.997[Thread-30 com.alibaba.druid.pool.DruidDataSource 2020] : {dataSource-1} closed
+[0;39m[1;31m[ERROR] 2020-03-10 09:11:53.026[Druid-ConnectionPool-Create-1157484092 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[34m[INFO ] 2020-03-10 11:11:40.193[main com.froggengo.springlearn.SpringLearnMain 50] : Starting SpringLearnMain on mh-fly with PID 9796 (F:\dev\SpringLearn\target\classes started by mh in F:\dev\SpringLearn)
+[0;39m[34m[INFO ] 2020-03-10 11:11:40.272[main com.froggengo.springlearn.SpringLearnMain 684] : The following profiles are active: ttt,dev
+[0;39m[34m[INFO ] 2020-03-10 11:11:40.465[main org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 590] : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62fad19: startup date [Tue Mar 10 11:11:40 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 11:11:46.247[main org.springframework.data.repository.config.RepositoryConfigurationDelegate 172] : Multiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[34m[INFO ] 2020-03-10 11:11:47.753[main com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor 50] : Post-processing PropertySource instances
+[0;39m[34m[INFO ] 2020-03-10 11:11:47.991[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.004[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.005[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.005[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.006[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.006[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.007[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.007[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [file:./config/application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.007[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [file:./application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.007[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/config/application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.008[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.008[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application-ttt.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.008[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application.yml] (document #1) [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.009[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application.yml] (document #0) [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.132[main com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter 31] : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[0;39m[34m[INFO ] 2020-03-10 11:11:48.296[main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326] : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7228e280] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m[34m[INFO ] 2020-03-10 11:11:49.969[main org.springframework.boot.web.embedded.tomcat.TomcatWebServer 91] : Tomcat initialized with port(s): 8997 (http)
+[0;39m[34m[INFO ] 2020-03-10 11:11:50.045[main org.apache.coyote.http11.Http11NioProtocol 180] : Initializing ProtocolHandler ["http-nio-8997"]
+[0;39m[34m[INFO ] 2020-03-10 11:11:50.095[main org.apache.catalina.core.StandardService 180] : Starting service [Tomcat]
+[0;39m[34m[INFO ] 2020-03-10 11:11:50.096[main org.apache.catalina.core.StandardEngine 180] : Starting Servlet Engine: Apache Tomcat/8.5.34
+[0;39m[34m[INFO ] 2020-03-10 11:11:50.108[localhost-startStop-1 org.apache.catalina.core.AprLifecycleListener 180] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app1\mh\product\11.2.0\dbhome_1\bin;d:\app\mh\product\11.2.0\dbhome_2\bin;d:\app\mh\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Java\jdk1.8.0_45\jre\bin;%CATALINA_HOME%\bin;D:\apache-maven-3.5.3\bin;D:\TortoiseSVN\bin;D:\TortoiseSVN12\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Anaconda3;E:\Anaconda3\Scripts;C:\Windows\System32;F:\软件安装\Git\cmd;F:\application\;C:\Program Files\Pandoc\;C:\cmder;D:\app1\redis;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\IntelliJ IDEA 2019.1.3\bin;;C:\Program Files\Bandizip\;D:\PyCharm 2019.2\bin;;F:\application\node_global;F:\软件安装\Microsoft VS Code\bin;.]
+[0;39m[34m[INFO ] 2020-03-10 11:11:50.837[localhost-startStop-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 180] : Initializing Spring embedded WebApplicationContext
+[0;39m[34m[INFO ] 2020-03-10 11:11:50.838[localhost-startStop-1 org.springframework.web.context.ContextLoader 285] : Root WebApplicationContext: initialization completed in 10373 ms
+[0;39m[34m[INFO ] 2020-03-10 11:11:50.996[localhost-startStop-1 org.springframework.boot.web.servlet.ServletRegistrationBean 187] : Servlet dispatcherServlet mapped to [/]
+[0;39m[34m[INFO ] 2020-03-10 11:11:51.020[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'characterEncodingFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 11:11:51.021[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 11:11:51.021[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 11:11:51.021[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'requestContextFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 11:11:51.215[main com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver 31] : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[0;39m[34m[INFO ] 2020-03-10 11:11:51.218[main com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector 30] : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[0;39m[34m[INFO ] 2020-03-10 11:11:51.435[main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56] : Init DruidDataSource
+[0;39m[34m[INFO ] 2020-03-10 11:11:52.441[main com.alibaba.druid.pool.DruidDataSource 1003] : {dataSource-1} inited
+[0;39m[34m[INFO ] 2020-03-10 11:11:54.645[main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 373] : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[0;39m[1;31m[ERROR] 2020-03-10 11:11:55.031[Druid-ConnectionPool-Create-1659969211 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[34m[INFO ] 2020-03-10 12:59:43.746[main com.froggengo.springlearn.SpringLearnMain 50] : Starting SpringLearnMain on mh-fly with PID 6872 (F:\dev\SpringLearn\target\classes started by mh in F:\dev\SpringLearn)
+[0;39m[34m[INFO ] 2020-03-10 12:59:43.751[main com.froggengo.springlearn.SpringLearnMain 684] : The following profiles are active: ttt,dev
+[0;39m[34m[INFO ] 2020-03-10 12:59:43.887[main org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 590] : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40e10ff8: startup date [Tue Mar 10 12:59:43 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 12:59:44.643[main org.springframework.data.repository.config.RepositoryConfigurationDelegate 172] : Multiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.032[main com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor 50] : Post-processing PropertySource instances
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.148[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.151[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.152[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.153[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.154[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.155[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.155[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.156[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [file:./config/application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.156[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [file:./application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.156[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/config/application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.192[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.193[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application-ttt.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.193[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application.yml] (document #1) [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.193[main com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter 38] : Converting PropertySource applicationConfig: [classpath:/application.yml] (document #0) [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.257[main com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter 31] : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.359[main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326] : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$782d8b32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.902[main org.springframework.boot.web.embedded.tomcat.TomcatWebServer 91] : Tomcat initialized with port(s): 8997 (http)
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.923[main org.apache.coyote.http11.Http11NioProtocol 180] : Initializing ProtocolHandler ["http-nio-8997"]
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.939[main org.apache.catalina.core.StandardService 180] : Starting service [Tomcat]
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.940[main org.apache.catalina.core.StandardEngine 180] : Starting Servlet Engine: Apache Tomcat/8.5.34
+[0;39m[34m[INFO ] 2020-03-10 12:59:45.947[localhost-startStop-1 org.apache.catalina.core.AprLifecycleListener 180] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app1\mh\product\11.2.0\dbhome_1\bin;d:\app\mh\product\11.2.0\dbhome_2\bin;d:\app\mh\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Java\jdk1.8.0_45\jre\bin;%CATALINA_HOME%\bin;D:\apache-maven-3.5.3\bin;D:\TortoiseSVN\bin;D:\TortoiseSVN12\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Anaconda3;E:\Anaconda3\Scripts;C:\Windows\System32;F:\软件安装\Git\cmd;F:\application\;C:\Program Files\Pandoc\;C:\cmder;D:\app1\redis;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\IntelliJ IDEA 2019.1.3\bin;;C:\Program Files\Bandizip\;D:\PyCharm 2019.2\bin;;F:\application\node_global;F:\软件安装\Microsoft VS Code\bin;.]
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.069[localhost-startStop-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 180] : Initializing Spring embedded WebApplicationContext
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.070[localhost-startStop-1 org.springframework.web.context.ContextLoader 285] : Root WebApplicationContext: initialization completed in 2182 ms
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.190[localhost-startStop-1 org.springframework.boot.web.servlet.ServletRegistrationBean 187] : Servlet dispatcherServlet mapped to [/]
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.196[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'characterEncodingFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.197[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.199[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.199[localhost-startStop-1 org.springframework.boot.web.servlet.FilterRegistrationBean 245] : Mapping filter: 'requestContextFilter' to: [/*]
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.261[main com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver 31] : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.264[main com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector 30] : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.365[main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56] : Init DruidDataSource
+[0;39m[34m[INFO ] 2020-03-10 12:59:46.750[main com.alibaba.druid.pool.DruidDataSource 1003] : {dataSource-1} inited
+[0;39m[34m[INFO ] 2020-03-10 12:59:47.397[main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 373] : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[0;39m[34m[INFO ] 2020-03-10 12:59:47.850[main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 588] : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40e10ff8: startup date [Tue Mar 10 12:59:43 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 12:59:47.957[main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 549] : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.froggengo.springlearn.project.domain.User> com.froggengo.springlearn.project.controller.UserController.userList()
+[0;39m[34m[INFO ] 2020-03-10 12:59:47.963[main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 549] : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[0;39m[34m[INFO ] 2020-03-10 12:59:47.965[main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 549] : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[0;39m[34m[INFO ] 2020-03-10 12:59:48.006[main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 373] : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[0;39m[34m[INFO ] 2020-03-10 12:59:48.007[main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 373] : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[0;39m[31m[WARN ] 2020-03-10 12:59:48.097[main org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 104] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[0;39m[1;31m[ERROR] 2020-03-10 12:59:48.868[Druid-ConnectionPool-Create-1377992370 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[34m[INFO ] 2020-03-10 12:59:49.338[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 433] : Registering beans for JMX exposure on startup
+[0;39m[34m[INFO ] 2020-03-10 12:59:49.340[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 895] : Bean with name 'statFilter' has been autodetected for JMX exposure
+[0;39m[34m[INFO ] 2020-03-10 12:59:49.340[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 895] : Bean with name 'dataSource' has been autodetected for JMX exposure
+[0;39m[34m[INFO ] 2020-03-10 12:59:49.347[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 668] : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+[0;39m[34m[INFO ] 2020-03-10 12:59:49.349[main org.springframework.jmx.export.annotation.AnnotationMBeanExporter 668] : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+[0;39m[34m[INFO ] 2020-03-10 12:59:49.376[main org.apache.coyote.http11.Http11NioProtocol 180] : Starting ProtocolHandler ["http-nio-8997"]
+[0;39m[34m[INFO ] 2020-03-10 12:59:49.394[main org.apache.tomcat.util.net.NioSelectorPool 180] : Using a shared selector for servlet write/read
+[0;39m[34m[INFO ] 2020-03-10 12:59:49.436[main org.springframework.boot.web.embedded.tomcat.TomcatWebServer 206] : Tomcat started on port(s): 8997 (http) with context path ''
+[0;39m[34m[INFO ] 2020-03-10 12:59:49.442[main com.froggengo.springlearn.SpringLearnMain 59] : Started SpringLearnMain in 8.948 seconds (JVM running for 12.043)
+[0;39m[1;31m[ERROR] 2020-03-10 12:59:50.961[Druid-ConnectionPool-Create-1377992370 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[34m[INFO ] 2020-03-10 12:59:50.964[Druid-ConnectionPool-Create-1377992370 com.alibaba.druid.pool.DruidAbstractDataSource 1743] : {dataSource-1} failContinuous is true
+[0;39m[1;31m[ERROR] 2020-03-10 12:59:53.470[Druid-ConnectionPool-Create-1377992370 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[1;31m[ERROR] 2020-03-10 12:59:55.978[Druid-ConnectionPool-Create-1377992370 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[1;31m[ERROR] 2020-03-10 12:59:58.498[Druid-ConnectionPool-Create-1377992370 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[1;31m[ERROR] 2020-03-10 13:00:01.003[Druid-ConnectionPool-Create-1377992370 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[1;31m[ERROR] 2020-03-10 13:00:03.509[Druid-ConnectionPool-Create-1377992370 com.alibaba.druid.pool.DruidDataSource 2699] : create connection SQLException, url: jdbc:mysql://localhost:3306/springlearn?serverTimeZone=UTC, errorCode 0, state 08S01
+[0;39mcom.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 17 common frames omitted
+[34m[INFO ] 2020-03-10 13:00:05.047[Thread-15 org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 993] : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40e10ff8: startup date [Tue Mar 10 12:59:43 CST 2020]; root of context hierarchy
+[0;39m[34m[INFO ] 2020-03-10 13:00:05.050[Thread-15 org.springframework.jmx.export.annotation.AnnotationMBeanExporter 451] : Unregistering JMX-exposed beans on shutdown
+[0;39m[34m[INFO ] 2020-03-10 13:00:05.051[Thread-15 org.springframework.jmx.export.annotation.AnnotationMBeanExporter 185] : Unregistering JMX-exposed beans
+[0;39m[34m[INFO ] 2020-03-10 13:00:05.138[Thread-15 com.alibaba.druid.pool.DruidDataSource 1948] : {dataSource-1} closing ...
+[0;39m[34m[INFO ] 2020-03-10 13:00:05.140[Thread-15 com.alibaba.druid.pool.DruidDataSource 2020] : {dataSource-1} closed
+[0;39m[34m[INFO ] 2020-03-10 15:10:46.210[main com.froggengo.springlearn.SpringLearnMain 50] : Starting SpringLearnMain on mh-fly with PID 10500 (F:\dev\SpringLearn\target\classes started by mh in F:\dev\SpringLearn)
+[0;39m[34m[INFO ] 2020-03-10 15:10:46.216[main com.froggengo.springlearn.SpringLearnMain 684] : The following profiles are active: ttt,dev
+[0;39m[34m[INFO ] 2020-03-10 15:10:46.321[main org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 590] : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ab7a938: startup date [Tue Mar 10 15:10:46 CST 2020]; root of context hierarchy
+[0;39m[31m[WARN ] 2020-03-10 15:10:46.527[RMI TCP Accept-0 sun.rmi.transport.tcp 237] : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=64154] throws
+[0;39mjava.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)

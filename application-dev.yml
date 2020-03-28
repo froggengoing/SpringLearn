@@ -1,0 +1,5 @@
+server:
+  port: 8997
+spring:
+  profiles:
+    active: fileroot

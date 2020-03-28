@@ -1,0 +1,8 @@
+#org.springframework.context.ApplicationContextInitializer=\
+#  com.froggengo.springlearn.start.MyApplicationcontextInitializer
+#
+#org.springframework.context.ApplicationListener=\
+#  com.froggengo.springlearn.start.MyApplicationListener
+#
+#org.springframework.boot.SpringApplicationRunListener=\
+#  com.froggengo.springlearn.start.MySpringApplicationRunListener
